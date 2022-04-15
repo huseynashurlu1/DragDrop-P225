@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.slider-all div img{
+    padding: 5px;
+}
+
+
+.slick-dots li{
+    background-color: blueviolet;
+    border-radius: 100%;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #fff;
+    opacity: 1;
+}
+
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '*';
+    text-align: center;
+    opacity: .25;
+    color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev,.slick-next{
+    background-color: purple;
+    z-index: 999999999999999999999999999999;
+}
+
+.slick-next {
+    right: -20px;
+}
+
+
+.slick-prev {
+    left: -20px;
+}
+
+.slick-next:hover{
+    background-color: purple;
+}
+
+.slick-prev:hover{
+    background-color: purple;
+}
